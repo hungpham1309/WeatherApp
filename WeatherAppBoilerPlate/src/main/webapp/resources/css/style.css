@@ -1,0 +1,100 @@
+/* Basic Reset */
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.form_wrapper {
+	margin-bottom: 5px;
+}
+
+.search_form {
+	display: flex;
+}
+
+.search_input {
+	flex: 1;
+}
+
+.weather_item {
+	display: flex;
+	padding: 5px;
+	height: 70px;
+	border: 1px solid grey;
+	margin: 2px 0px;
+}
+
+.section_1,
+.section_2,
+.section_3,
+.section_4 {
+	display: flex;
+	margin: 0px 5px;
+}
+
+.section_1,
+.section_4 {
+	align-items: center;
+}
+
+.section_2,
+.section_3 {
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section_2 > p,
+.section_3 > p {
+	margin: 3px 0;
+}
+
+.section_1 {
+	padding: 0px 20px;
+}
+
+.section_3 {
+	flex: 1;
+}
+
+.temperature_degree {
+	background: grey;
+	border-radius: 5px;
+	padding: 2px;
+	color: white;
+	font-weight: bold;
+}
+
+.temperature_info,
+.country_name,
+.mixed_info {
+	font-weight: 600;
+}
+
+.date_info {
+	color: grey;
+}
+
+.delete_button {
+	background: tomato;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+p {
+	display: inline;
+	margin: 0px;
+}
